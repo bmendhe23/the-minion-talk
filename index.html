@@ -5,13 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion Talk App</title>
+
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>banana talk</h1>
-    <button id="btn-translate">Translate</button>
-    <textarea placeholder="Put the text in english here..." id="txt-input" cols="30" rows="10"></textarea>
+    <header>
+        <h1><span><img id="minion-img" src="https://pngimg.com/uploads/minions/minions_PNG78.png" alt=""></span> banana talk <span><img id="minion-img2" src="https://pngimg.com/uploads/minions/minions_PNG79.png" alt=""></span></h1>
+    </header>
     
-    <div id="txt-output" style="width: 250px; height: 150px; border: 2px solid black;"></div>
+    <div class="container">
+        <textarea placeholder="Put the text in english here..." id="txt-input" cols="20" rows="5"></textarea><br>
+
+        <button id="btn-translate">Translate to Banana</button>
+
+        <h4>The minionified version will show here 🍌</h4>
+        
+        <div  id="txt-output">Get the Banana text here...</div>
+    </div>
+
+    <footer>
+        <div>
+            <h3>about</h3>
+            <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speach.</p>
+        </div>
+    </footer>
+
+
 
     <script src="banana.js" type="text/javascript"></script>
 
