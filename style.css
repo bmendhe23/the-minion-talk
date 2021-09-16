@@ -58,12 +58,11 @@ textarea {
 
 footer div {
     background-color: #fed601;
-    height: 15vh;
+    height: 10vh;
     text-align: center;
-    padding: .5rem;
+    padding: 5px;
 }
 
-footer div p {
-    width: 60%;
-    margin: auto;
+footer div h3 {
+    margin: 0rem auto;
 }
